@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/* Normalize */
+@import url('https://necolas.github.io/normalize.css/8.0.0/normalize.css');
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Icons */
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+/* Var */
+$blue: #188ccd;
+$purple: #292334;
+$purpleDark: #201b2b;
+$white: #fff;
+$white06: rgba(255,255,255,.6);
+
+/* Keyframes */
+
+@keyframes swing {
+	25% { transform: rotate(-10deg); }
+	50% { transform: rotate(5deg); }	
+	75% { transform: rotate(-5deg); }	
+	100% { transform: rotate(0deg); }
+}
+@keyframes gelatine {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+}
+
+/* Global */
+
+body {
+    color: #333;
+    font-family: Open Sans;
+}
+
+h1, h2, h3 {
+    font-family: Oswald;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Sidenav */
+
+.sidenav {
+    background-color: $purple;
+    border-top: 5px solid $blue;
+    box-sizing: border-box;
+    color: $white;
+    display: inline-block;
+    font-family: Oswald;
+    height: 100vh;
+    padding: 64px 32px;
+    position: fixed;
+    width: 280px;
+    .sidenav-name {
+        font-size: 58px;
+        margin: 0 0 30px;
+        text-transform: uppercase;
+        &:first-line {
+            font-size: 61px;
+        }
+        
+    }
+    .sidenav-function {
+        color: $blue;
+        font-size: 20px;    
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+    .sidenav-nav {
+        font-size: 25px;    
+        font-weight: 200;
+        margin: 100px -32px 0 -32px;
+        text-transform: uppercase;
+        a {
+            color: $blue;
+            display: block;
+            padding: 16px 35px;
+            &:hover {
+                animation: swing .8s ease;
+                background-color: $purpleDark;
+                color: $white;
+                transform-origin: top center;
+            }
+        }
+    }
+    .sidenav-footer {
+        text-align: center;
+    }
+    .sidenav-socialMedias {
+        font-size: 32px;
+        margin-top: 150px;
+        li {
+            display: inline-block;
+            margin: 0 16px;
+        }
+        a {
+            color: $white06;
+            &:hover {
+                color: $white;
+                animation: gelatine 0.5s;
+            }
+        }
+    }
+    .sidenav-address {
+        margin-top: 40px;
+        span {
+            display: block;
+            font-size: 18px;    
+            font-weight: 200;
+            &:first-child {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+
+/* Main */
+
+.main {
+    border-top: 5px solid $blue;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 280px;
+    padding: 64px;
+    vertical-align: top;
+    width: calc(100% - 280px);
+    .main-title {
+        color: $purple;
+        font-size: 58px;
+        margin: 0 0 100px;
+        text-transform: uppercase;
+    }
+}
+
+
+/* Resume */
+
+.resume {
+    line-height: 1.5;
+    & > div {
+        margin-bottom: 48px;
+    }
+    i {
+        font-size: 32px;
+        margin-right: 16px;
+    }
+    .resume-title {
+        color: $blue;
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .resume-activitities {
+        list-style: inside;
+    }
+}

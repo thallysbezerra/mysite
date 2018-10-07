@@ -1,0 +1,30 @@
+{
+    "name":"Thallys Bezerra",
+    "function":"Front-end Developer and Digital Interfaces Designer",
+    "links": [
+        { "link":"Resume" },
+        { "link":"Works" },
+        { "link":"Contact" }
+    ],
+    "socialMedia": [
+        {
+            "url":"http://codepen.io/thallysbezerra" ,
+            "icon":"codepen",
+            "title":"Codepen"
+        },
+        {
+            "url":"https://github.com/thallysbezerra" ,
+            "icon":"github",
+            "title":"GitHub"
+        },
+        {
+            "url":"https://www.linkedin.com/in/thallysbezerra/" ,
+            "icon":"linkedin",
+            "title":"LinkedIn"
+        }
+    ],
+    "addresses": [
+        { "adress":"Rio de Janeiro, RJ - Brazil" },
+        { "adress":"São Paulo, RJ - Brazil" }
+    ]
+}
