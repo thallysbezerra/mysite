@@ -1,0 +1,19 @@
+.resume {
+    line-height: 1.5;
+    & > div {
+        margin-bottom: 48px;
+    }
+    i {
+        font-size: 32px;
+        margin-right: 16px;
+    }
+    .resume-title {
+        color: var(--blue);
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .resume-activitities {
+        list-style: inside;
+    }
+}

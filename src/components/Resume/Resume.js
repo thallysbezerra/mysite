@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './css/style.css'
 import data from './data.json'
 
 class Sidenav extends Component {

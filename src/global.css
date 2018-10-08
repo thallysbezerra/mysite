@@ -5,7 +5,14 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 /* Icons */
 @import url("https://use.fontawesome.com/releases/v5.1.0/css/all.css");
-/* Var */
+/* Colors */
+:root {
+  --blue: #188ccd;
+  --purple: #292334;
+  --purpleDark: #201b2b;
+  --white: #fff;
+  --white06: rgba(255,255,255,.6); }
+
 /* Keyframes */
 @keyframes swing {
   25% {
@@ -39,95 +46,5 @@ ul {
 
 a {
   text-decoration: none; }
-
-/* Sidenav */
-.sidenav {
-  background-color: #292334;
-  border-top: 5px solid #188ccd;
-  box-sizing: border-box;
-  color: #fff;
-  display: inline-block;
-  font-family: Oswald;
-  height: 100vh;
-  padding: 64px 32px;
-  position: fixed;
-  width: 280px; }
-  .sidenav .sidenav-name {
-    font-size: 58px;
-    margin: 0 0 30px;
-    text-transform: uppercase; }
-    .sidenav .sidenav-name:first-line {
-      font-size: 61px; }
-  .sidenav .sidenav-function {
-    color: #188ccd;
-    font-size: 20px;
-    font-weight: 200;
-    text-transform: uppercase; }
-  .sidenav .sidenav-nav {
-    font-size: 25px;
-    font-weight: 200;
-    margin: 100px -32px 0 -32px;
-    text-transform: uppercase; }
-    .sidenav .sidenav-nav a {
-      color: #188ccd;
-      display: block;
-      padding: 16px 35px; }
-      .sidenav .sidenav-nav a:hover {
-        animation: swing .8s ease;
-        background-color: #201b2b;
-        color: #fff;
-        transform-origin: top center; }
-  .sidenav .sidenav-footer {
-    text-align: center; }
-  .sidenav .sidenav-socialMedias {
-    font-size: 32px;
-    margin-top: 150px; }
-    .sidenav .sidenav-socialMedias li {
-      display: inline-block;
-      margin: 0 16px; }
-    .sidenav .sidenav-socialMedias a {
-      color: rgba(255, 255, 255, 0.6); }
-      .sidenav .sidenav-socialMedias a:hover {
-        color: #fff;
-        animation: gelatine 0.5s; }
-  .sidenav .sidenav-address {
-    margin-top: 40px; }
-    .sidenav .sidenav-address span {
-      display: block;
-      font-size: 18px;
-      font-weight: 200; }
-      .sidenav .sidenav-address span:first-child {
-        margin-bottom: 8px; }
-
-/* Main */
-.main {
-  border-top: 5px solid #188ccd;
-  box-sizing: border-box;
-  display: inline-block;
-  margin-left: 280px;
-  padding: 64px;
-  vertical-align: top;
-  width: calc(100% - 280px); }
-  .main .main-title {
-    color: #292334;
-    font-size: 58px;
-    margin: 0 0 100px;
-    text-transform: uppercase; }
-
-/* Resume */
-.resume {
-  line-height: 1.5; }
-  .resume > div {
-    margin-bottom: 48px; }
-  .resume i {
-    font-size: 32px;
-    margin-right: 16px; }
-  .resume .resume-title {
-    color: #188ccd;
-    font-size: 24px;
-    font-weight: 500;
-    text-transform: uppercase; }
-  .resume .resume-activitities {
-    list-style: inside; }
 
 /*# sourceMappingURL=global.css.map */
