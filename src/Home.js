@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import Resume from './widgets/Resume/Resume';
 import Main from './components/Main/Main';
-import Resume from './components/Resume/Resume';
 import Sidenav from './components/Sidenav/Sidenav';
 
 class Home extends Component {

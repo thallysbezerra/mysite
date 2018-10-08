@@ -1,0 +1,110 @@
+{
+    "title": "Resume",
+    "section": [
+        {
+            "icon":"user",
+            "title":"About me",
+            "paragraphs": [
+                { "paragraph":"I have an undergraduate degree at Digital Design at Instituto Infnet and work with technology and web application development at ANBIMA." },
+                { "paragraph":"Being passionate about design, technology and innovation , I try to be up to date on news and trends about web." }
+            ]
+        },
+        {
+            "icon":"suitcase",
+            "title":"Professional Experience",
+            "company": [
+                {
+                    "name":"Jüssi (São Paulo, Brazil)",
+                    "functions":[
+                        {
+                            "function":"Web Development Specialist",
+                            "period":", July/2018 - Current"
+                        }
+                    ],
+                    "activitities":[
+                        { "activitity":"Development with agile methodologies;" },
+                        { "activitity":"E-Commerce platforms development;" },
+                        { "activitity":"Translation of wireframes and interfaces into code;" },
+                        { "activitity":"Interaction with Designers, PO’s and PM’s" },
+                        { "activitity":"Interação com Designers, PO’s e PM’s to predict and solve problema between Design and implementation;" },
+                        { "activitity":"Strategies definition for behavior of interfaces and features;" },
+                        { "activitity":"Pull Requests reviews focused on development patterns and good practices;" },
+                        { "activitity":"Management and control of repositories and branches on GitHub and workspaces on VTEX IO." }
+                    ]
+                },
+                {
+                    "name":"ANBIMA (Rio de Janeiro and São Paulo, Brazil)",
+                    "functions":[
+                        {
+                            "function":"Front-end Analyst",
+                            "period":", June/2017 - June/2018"
+                        },
+                        {
+                            "function":"Front-end Assistant",
+                            "period":", May/2016 - May/2017"
+                        },
+                        {
+                            "function":"Front-end Inter",
+                            "period":", May/2014 - April/2016"
+                        }
+                    ],
+                    "activitities":[
+                        { "activitity":"Development and leadership projects with partners using agile methodologies;" },
+                        { "activitity":"Relationship with business areas for translation into technical requirements;" },
+                        { "activitity":"Digital interfaces validation focused on UX and UI;" },
+                        { "activitity":"Code review aiming performance and good practices;" },
+                        { "activitity":"Interface customization and developement focused on CMS;" },
+                        { "activitity":"Development of POC’s and MVP’s;" },
+                        { "activitity":"Creation and review of wireframes, from low to high-fidelity." }
+                    ]
+                }
+            ]
+        },
+        {
+            "icon":"graduation-cap",
+            "title":"Academic education",
+            "courses":[
+                {
+                    "course":"Undergraduate Degree at Digital Design",
+                    "institute":"Infnet Instituto , Rio de Janeiro, 2013-2016"
+                },
+                {
+                    "course":"Secondary and Technical Education in Data Processing",
+                    "institute":"Lemos de Castro School, Rio de Janeiro"
+                }
+            ]
+
+        },
+        {
+            "icon":"book",
+            "title":"Complementary education",
+            "courses":[
+                {
+                    "course":"React Native",
+                    "institute":"32h - Caelum/Gama Academy, 2018"
+                },
+                {
+                    "course":"React and Redux for Web Apps development",
+                    "institute":"32h - Caelum/Gama Academy, 2018"
+                },
+                {
+                    "course":"Design Leadership",
+                    "institute":"4h - Mergo, 2017"
+                },
+                {
+                    "course":"Mobile Multiplataform Cordova Developer",
+                    "institute":"112h - Alura, 2017"
+                },
+                {
+                    "course":"UX - User Experience",
+                    "institute":"8h - Polo Criativo, 2015"
+                },
+                {
+                    "course":"Web development with HTML, CSS e JavaScript",
+                    "institute":"40h - CAELUM, 2014"
+                }
+            ]
+
+        }
+    ]
+}
