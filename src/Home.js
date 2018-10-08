@@ -9,8 +9,7 @@ class Home extends Component {
       <div>
 
         <Sidenav />
-
-        <Main title="Resume">
+        <Main>
           <Resume />
         </Main>
 

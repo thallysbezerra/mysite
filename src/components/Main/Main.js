@@ -6,7 +6,6 @@ class Sidenav extends Component {
 
     return (
       <main className="main">
-        <h2 className="main-title">{this.props.title}</h2>
         {this.props.children}
       </main>
     );
