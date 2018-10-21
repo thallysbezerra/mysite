@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ResumeSection from './../../components/ResumeSection/ResumeSection'
-import './css/style.css'
+import './css/style.scss'
 import data from './data.json'
 
 class Sidenav extends Component {

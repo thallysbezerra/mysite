@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './css/style.css'
+import './css/style.scss'
 
 class Sidenav extends Component {
   render() {
