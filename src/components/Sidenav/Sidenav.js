@@ -24,8 +24,7 @@ class Sidenav extends Component {
             <li><a href={data.socialMedia[2].url} title={data.socialMedia[2].title} target="_blank" className={`fab fa-${data.socialMedia[2].icon}`}></a></li>
           </ul>
           <div className="sidenav-address">
-            <span>{data.addresses[0].adress}</span>
-            <span>{data.addresses[1].adress}</span>
+            <span>{data.address}</span>
           </div>
         </footer>
       </div>

@@ -23,8 +23,5 @@
             "title":"LinkedIn"
         }
     ],
-    "addresses": [
-        { "adress":"Rio de Janeiro, RJ - Brazil" },
-        { "adress":"São Paulo, RJ - Brazil" }
-    ]
+    "address": "São Paulo, SP - Brazil" 
 }

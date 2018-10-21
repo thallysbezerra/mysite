@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './css/style.scss'
 
 class ResumeSection extends Component {
   render() {

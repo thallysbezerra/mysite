@@ -105,6 +105,16 @@
                 }
             ]
 
+        },
+        {
+            "icon":"balance-scale",
+            "title":"Skills",
+            "skills":[
+                { "skill":"Front-end Development" },
+                { "skill":"UI Design" },
+                { "skill":"UX Design" }
+            ]
+
         }
     ]
 }

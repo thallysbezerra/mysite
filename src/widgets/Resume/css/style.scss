@@ -1,13 +1,41 @@
 .resume {
     line-height: 1.5;
-    & > div {
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .resume-title {
+        color: var(--blue);
+        font-size: 24px;
+        font-weight: 500;
+        margin: 48px 0 24px;
+        text-transform: uppercase;
+        & + ul li {
+            margin-bottom: 10px;
+            p {
+                margin: 0;
+            }
+        }
+    }
+    & .resume-content > div, .resume-aside > div {
         margin-bottom: 48px;
+    }
+    & .resume-content > div:last-child, .resume-aside > div:last-child {
+        margin-bottom: 0;
     }
     i {
         font-size: 32px;
         margin-right: 16px;
     }
-    .resume-activitities {
+    .resume-list {
         list-style: inside;
+    }
+    .resume-aside {
+        background-color: var(--grey);
+        margin: 0 -64px 0 64px;
+        padding: 48px 48px;
+        div:first-child .resume-title {
+            margin-top: 0;
+        }
     }
 }
